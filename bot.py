@@ -32,9 +32,9 @@ active_games = {}
 # --- КЛАВИАТУРЫ ---
 main_menu = ReplyKeyboardMarkup(
     keyboard=[
-        [KeyboardButton(text="В бой на 10💰"), KeyboardButton(text="В бой на 50💰")],
-        [KeyboardButton(text="Ежедневный бонус🎁")],
-        [KeyboardButton(text="Рейтинг🏆"), KeyboardButton(text="Профиль👤")]
+        [KeyboardButton(text="В бой на 10 монет"), KeyboardButton(text="В бой на 50 монет")],
+        [KeyboardButton(text="Ежедневный бонус")],
+        [KeyboardButton(text="Рейтинг"), KeyboardButton(text="Профиль👤")]
     ], resize_keyboard=True
 )
 
