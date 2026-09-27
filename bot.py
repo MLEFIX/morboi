@@ -34,13 +34,13 @@ main_menu = ReplyKeyboardMarkup(
     keyboard=[
         [KeyboardButton(text="В бой на 10 монет"), KeyboardButton(text="В бой на 50 монет")],
         [KeyboardButton(text="Ежедневный бонус")],
-        [KeyboardButton(text="Рейтинг"), KeyboardButton(text="Профиль👤")]
+        [KeyboardButton(text="Рейтинг"), KeyboardButton(text="Профиль")]
     ], resize_keyboard=True
 )
 
 rating_menu = ReplyKeyboardMarkup(
     keyboard=[
-        [KeyboardButton(text="По монетам💰"), KeyboardButton(text="По победам🏆")],
+        [KeyboardButton(text="По монетам"), KeyboardButton(text="По победам")],
         [KeyboardButton(text="В главное меню")]
     ], resize_keyboard=True
 )
@@ -49,7 +49,7 @@ placement_menu = ReplyKeyboardMarkup(
     keyboard=[
         [KeyboardButton(text="🎲 Случайная расстановка"), KeyboardButton(text="🔄 Очистить")],
         [KeyboardButton(text="✅ Готово")],
-        [KeyboardButton(text="Сдаться🏳️")]
+        [KeyboardButton(text="Сдаться")]
     ], resize_keyboard=True
 )
 
